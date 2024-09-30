@@ -31,15 +31,22 @@
           </div>
         </div>
         <div class="card reverse">
-          <div class="card__img"><img src="@/assets/images/home-family.png" alt="Персонажи" /></div>
           <div class="card__info">
             <h3>Персонажи</h3>
             <p>Узнайте больше о героях и злодеях, которые делают Berserk таким запоминающимся.</p>
             <a href="characters.html" class="button">Перейти</a>
           </div>
+          <div class="card__img"><img src="@/assets/images/home-family.png" alt="Персонажи" /></div>
+        </div>
+        <div class="card reverse">
+          <div class="card__img"><img src="@/assets/images/home-family.png" alt="Персонажи" /></div>
+          <div class="card__info">
+            <h3>Цитаты</h3>
+            <p>Узнайте больше о героях и злодеях, которые делают Berserk таким запоминающимся.</p>
+            <a href="characters.html" class="button">Перейти</a>
+          </div>
         </div>
         <div class="card">
-          <div class="card__img"><img src="@/assets/images/home-family.png" alt="Обои" /></div>
           <div class="card__info">
             <h3>Обои</h3>
             <p>
@@ -47,6 +54,7 @@
             </p>
             <a href="wallpapers.html" class="button">Перейти</a>
           </div>
+          <div class="card__img"><img src="@/assets/images/home-family.png" alt="Обои" /></div>
         </div>
         <div class="card reverse">
           <div class="card__img">

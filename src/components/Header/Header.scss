@@ -13,12 +13,11 @@
   display: flex;
   gap: 60px;
   align-items: center;
-  padding: 10px 60px;
+  padding: 10px 20px;
   position: relative;
   background-color: #1c1c1c;
 
   &__logo img {
-    min-width: 100px;
     max-width: 150px;
     width: 100%;
   }
@@ -96,10 +95,11 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 200px;
+    width: 320px;
     height: 100%;
     background-color: #2c2c2c;
     transition: right 0.3s ease;
+    z-index: 1;
 
     ul {
       margin-top: 108px;
@@ -107,7 +107,7 @@
       padding: 20px;
 
       li {
-        margin: 20px 0;
+        margin: 10px 0;
 
         a {
           color: white;
@@ -122,7 +122,7 @@
   }
 
   /* Адаптивные стили для мобильных устройств */
-  @media (max-width: 768px) {
+  @media (max-width: 870px) {
     .burger {
       display: flex;
       z-index: 99;
@@ -132,16 +132,27 @@
       display: block;
     }
 
-    &__list {
+    .nav__list {
       display: none;
     }
 
-    &__list:last-child {
+    .nav__list:last-child {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       z-index: 99;
+    }
+  }
+
+  /* Средние телефоны */
+  @media (max-width: 480px) {
+    /* Стили для экранов до 480px */
+    .nav {
+      &__logo img {
+        max-width: 100px;
+        width: 100%;
+      }
     }
   }
 }
@@ -151,21 +162,9 @@
   /* Стили для экранов до 320px */
 }
 
-/* Средние телефоны */
-@media (max-width: 480px) {
-  /* Стили для экранов до 480px */
-}
-
 /* Планшеты */
 @media (max-width: 768px) {
   /* Стили для экранов до 768px */
-  .burger {
-    display: block;
-  }
-
-  .nav-menu {
-    display: block;
-  }
 }
 
 /* Ноутбуки и небольшие экраны */

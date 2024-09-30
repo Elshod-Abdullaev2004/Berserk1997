@@ -56,7 +56,7 @@ const closeMenu = () => {
 }
 
 const handleResize = () => {
-  isMobile.value = window.innerWidth <= 768
+  isMobile.value = window.innerWidth <= 870
 }
 
 onMounted(() => {
