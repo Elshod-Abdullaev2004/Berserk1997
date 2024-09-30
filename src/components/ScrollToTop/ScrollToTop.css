@@ -1,0 +1,20 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  background: url(@/assets/icons/scroll-to-top.png) center center/cover;
+}
+.scroll-to-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+}/*# sourceMappingURL=ScrollToTop.css.map */

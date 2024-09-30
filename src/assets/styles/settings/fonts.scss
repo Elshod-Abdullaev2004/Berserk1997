@@ -1,0 +1,10 @@
+$Comfortaa: ('Light', 300), ('Regular', 400), ('Medium', 500), ('SemiBold', 600), ('Bold', 700);
+
+@each $name, $weigth in $Comfortaa {
+  @font-face {
+    font-family: 'Comfortaa';
+    src: url('@/assets/fonts/Comfortaa-#{$name}.ttf');
+    font-style: normal;
+    font-weight: $weigth;
+  }
+}
